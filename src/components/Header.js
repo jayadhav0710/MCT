@@ -1,6 +1,6 @@
 import React,{ useState,useEffect } from 'react'
 import '../App.css'
-const Header = (mode) => {
+const Header = () => {
   const [theme, setTheme] = useState('light');
   const toggleTheme = () => {
     if (theme === 'light') {
